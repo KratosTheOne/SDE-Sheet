@@ -1,5 +1,8 @@
 class Solution {
 
+    // t.c -> 2^t * k;
+    // s.c -> k * x(combinations)
+
     public:
     void findCombinations(int ind, int target, vector<int> &arr, vector<vector<int>> &ans, vector<int> &ds)
     {
