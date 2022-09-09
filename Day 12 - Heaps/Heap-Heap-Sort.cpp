@@ -71,10 +71,10 @@ public:
         int left = 2 * i;
         int right = 2 * i + 1;
 
-        if(left <= sz && arr[largest] < arr[left])
+        if(left <= n && arr[largest] < arr[left])
             largest = left;
 
-        if(right <= sz && arr[largest] < arr[right])
+        if(right <= n && arr[largest] < arr[right])
             largest = right;
 
         if(largest != i)
